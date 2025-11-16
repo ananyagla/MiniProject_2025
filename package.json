@@ -1,5 +1,5 @@
 {
-  "name": "cloud-cost-optimizer",
+  "name": "costinsight",
   "version": "1.0.0",
   "description": "Cloud Cost Optimization tool with AI-driven advice and real-time AWS monitoring.",
   "main": "backend/server.js",
@@ -31,3 +31,4 @@
     "nodemon": "^3.0.2"
   }
 }
+
