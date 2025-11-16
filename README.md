@@ -18,7 +18,7 @@ Features include real-time cost tracking, risk alerts, optimization advice, stat
 
 The app also uses **AWS Lambda** to fetch CloudWatch metrics and automatically shut down instances when limits are reached.
 
-**Deployed on Vercel:** https://your-vercel-link.vercel.app
+**Deployed on Vercel:** https://mini-project-2025-fq57.vercel.app/
 
 ---
 
