@@ -1,4 +1,4 @@
-<h1 align="center">☁️ Cloudana Cost Optimizer</h1>
+<h1 align="center">☁️ Cloudana CostInsight/h1>
 
 <p align="center">
   <b>A smart cloud-based web app to monitor, analyze, and <br>
