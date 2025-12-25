@@ -1,3 +1,4 @@
+
 # CostInsight: AI-Powered Cloud Cost Optimization
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -9,7 +10,8 @@
 <br />
 <p align="center">
   <a href="https://github.com/mohdazam193/Cloud-cost">
-    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+    <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Logo"/>
+    <img src="https://img.shields.io/badge/Azure-%230078D4.svg?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Logo"/>
   </a>
 
   <h3 align="center">CostInsight</h3>
@@ -58,37 +60,6 @@
 
 ## About The Project
 
-```mermaid
-graph TD
-    subgraph "User's Browser"
-        A[User] --> B[Vanilla JS Frontend];
-    end
-
-    subgraph "Kubernetes Cluster (EKS)"
-        B --> C{Load Balancer};
-        C --> D["Backend API (Node.js)"];
-        D --> E[MongoDB];
-        D --> F[Prometheus];
-        F --> G[Grafana];
-    end
-
-    subgraph "External Services"
-        D --> H[Google Gemini AI];
-    end
-
-    subgraph "AWS Infrastructure"
-        I[AWS Lambda] -- Pushes Data --> C;
-        J[CloudWatch Metrics] --> I;
-    end
-
-    style B fill:#F7DF1E,stroke:#333,stroke-width:2px
-    style D fill:#8CC84B,stroke:#333,stroke-width:2px
-    style E fill:#4DB33D,stroke:#333,stroke-width:2px
-    style F fill:#E6522C,stroke:#333,stroke-width:2px
-    style G fill:#F47E20,stroke:#333,stroke-width:2px
-    style H fill:#4285F4,stroke:#333,stroke-width:2px
-    style I fill:#FF9900,stroke:#333,stroke-width:2px
-```
 
 CostInsight was born from the need for a centralized, intelligent platform to manage the complexities of cloud spending. In a multi-cloud world, it's easy to lose track of resources, leading to budget overruns and inefficient infrastructure.
 
@@ -120,7 +91,7 @@ This project is built on a modern, scalable technology stack.
 | **Container** | Docker                               |
 | **Orchestration**| Kubernetes (Amazon EKS)             |
 | **Monitoring**| Prometheus, Grafana                  |
-| **Cloud**     | AWS (EC2, EKS, Lambda, S3, IAM)      |
+| **Cloud**     | AWS (EC2, EKS, Lambda, S3, IAM), Azure |
 
 ---
 
