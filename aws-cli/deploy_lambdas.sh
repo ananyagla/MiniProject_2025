@@ -37,9 +37,14 @@ FETCHER_LAMBDA_PATH="lambda/cloudwatch-fetcher.js"
 SHUTDOWN_LAMBDA_PATH="lambda/instance-auto-shutdown.js"
 
 # Environment variables for the CloudWatch Fetcher Lambda
-# TODO: Replace with your actual backend API endpoint and a secure API key
-API_ENDPOINT="https://your-backend-api.com/data"
-API_KEY="your-secret-api-key"
+# IMPORTANT: Replace this with the public URL of your backend API.
+# Example: https://myapp.com/api/cloud-data
+API_ENDPOINT="REPLACE_WITH_YOUR_BACKEND_API_ENDPOINT"
+
+# IMPORTANT: Replace this with a strong, secret key that your backend can verify.
+# You can generate a good one with: openssl rand -base64 32
+API_KEY="/dyCBmQ+e0gVsDxn+wg4FJf0Jk8b1tE/KD5k/TyRJNY="
+
 
 # ===================================================================================
 # SCRIPT LOGIC
