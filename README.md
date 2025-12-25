@@ -65,7 +65,7 @@ graph TD
 
     subgraph "Kubernetes Cluster (EKS)"
         B --> C{Load Balancer};
-        C --> D[Backend API (Node.js)];
+        C --> D["Backend API (Node.js)"];
         D --> E[MongoDB];
         D --> F[Prometheus];
         F --> G[Grafana];
