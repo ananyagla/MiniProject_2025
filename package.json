@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "dev": "nodemon backend/server.js",
-    "build": "echo 'No build step required'",
-    "vercel-build": "echo 'Build completed'"
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "@aws-sdk/client-cloudwatch": "^3.470.0",
